@@ -487,8 +487,6 @@ function sortByAsc(arr) {
 
   const newArr = quickSort(arr);
 
-  console.log(newArr);
-
   for (let i = 0; i < newArr.length; i += 1) {
     arrRef[i] = newArr[i];
   }
